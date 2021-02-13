@@ -1,13 +1,31 @@
 body {
-    background: #cbedb5;
-    padding-top: 25px;
+  background: #cbedb5;
+  padding-top: 25px;
 }
 
 .main-image {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .pet-image {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+tr {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .btn {
+    font-size: 0.85rem;
+  }
 }
